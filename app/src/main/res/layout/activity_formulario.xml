@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:hint="Nome do Evento"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/nomeevento"/>
+
+    <EditText
+        android:hint="Dia do Evento"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/dias"/>
+
+    <EditText
+        android:hint="Hora de Início"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/horas"/>
+
+    <EditText
+        android:hint="Local do Evento"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/local"/>
+
+    <Button
+        android:id="@+id/botaosalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/botaolista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <EditText
+            android:hint="Nome do Evento"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/nomeevento"/>
+
+        <EditText
+            android:hint="Dia do Evento"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/dias"/>
+
+    <EditText
+        android:id="@+id/horas"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Hora de Início" />
+
+    <EditText
+        android:id="@+id/local"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/botaolista"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="115dp"
+        android:hint="Local do Evento" />
+
+    <Button
+        android:id="@+id/botaosalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/botaolista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/botaosalvar"
+        android:layout_marginBottom="-316dp"
+        android:text="Lista" />
+
+</RelativeLayout>

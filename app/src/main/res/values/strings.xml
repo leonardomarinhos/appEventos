@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Eventos</string>
+    <string name="evento" />
+    <string name="dias" />
+    <string name="horas" />
+    <string name="hora_do_rem_dio" />
+    <string name="lista_evento" />
+</resources>
